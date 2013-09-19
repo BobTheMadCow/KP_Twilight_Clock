@@ -1,0 +1,54 @@
+{
+    "media": [
+        {
+            "defName": "IMAGE_DARK_GREY",
+            "type": "png",
+            "file": "images/dark_grey.png"
+        },
+        {
+            "defName": "IMAGE_GREY",
+            "type": "png",
+            "file": "images/grey.png"
+        },
+        {
+            "defName": "IMAGE_LIGHT_GREY",
+            "type": "png",
+            "file": "images/light_grey.png"
+        },
+        {
+            "defName": "IMAGE_WATCHFACE",
+            "type": "png-trans",
+            "file": "images/watchface.png"
+        },
+        {
+            "characterRegex": "[:0-9]",
+            "defName": "FONT_ROBOTO_CONDENSED_30",
+            "type": "font",
+            "file": "fonts/Roboto-Condensed.ttf"
+        },
+        {
+            "characterRegex": "[:0-9]",
+            "defName": "FONT_ROBOTO_CONDENSED_18",
+            "type": "font",
+            "file": "fonts/Roboto-Condensed.ttf"
+        },
+        {
+            "characterRegex": "[a-z01]",
+            "defName": "FONT_MOON_PHASES_SUBSET_30",
+            "type": "font",
+            "file": "fonts/moon_phases.ttf"
+        },
+        {
+            "defName": "IMAGE_MENU_ICON",
+            "type": "png",
+            "file": "images/menu_icon_sunclock.png"
+        },
+        {
+            "defName": "IMAGE_HOUR",
+            "type": "png-trans",
+            "file": "images/hour.png"
+        }
+    ],
+    "friendlyVersion": "VERSION",
+    "versionDefName": "APP_RESOURCES"
+}
