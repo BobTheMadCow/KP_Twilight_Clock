@@ -138,3 +138,15 @@ float my_tan(float x)
 {
   return my_sin(x) / my_cos(x);
 }
+
+float my_max(float x, float y)
+{
+	if(x>y)
+	{
+		return x;
+	}
+	else 
+	{
+		return y;
+	}
+}

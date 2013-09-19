@@ -338,9 +338,7 @@ void handle_minute_tick(AppContextRef ctx, PebbleTickEvent *t)
   text_layer_set_text(&text_time_layer, time_text);
   text_layer_set_text_alignment(&text_time_layer, GTextAlignmentCenter);
   
-  int angle = get24HourAngle(t->tick_time->tm_hour, t->tick_time->tm_min);
-  if( angle == 0) {angle = 1;}
-  rotbmp_pair_layer_set_angle(&bitmap_container.layer, TRIG_MAX_ANGLE * angle);
+  rotbmp_pair_layer_set_angle(&bitmap_container.layer, (my_max(TRIG_MAX_ANGLE * get24HourAngle(t->tick_time->tm_hour, t->tick_time->tm_min),1.0f)));
   bitmap_container.layer.layer.frame.origin.x = (144/2) - (bitmap_container.layer.layer.frame.size.w/2);
   bitmap_container.layer.layer.frame.origin.y = (168/2) - (bitmap_container.layer.layer.frame.size.h/2);
 
