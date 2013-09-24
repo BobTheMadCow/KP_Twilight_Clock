@@ -14,6 +14,8 @@ Credit & Thanks:
     Michael Ehrmann (Boldo) for the original SunClock source
     Chad Harp for the Almanac source
     Dersie for beta testing the revised code
+    KarbonPebbler for the work on KP_Sun_Moon_Vibe_Clock
+    Jnm for the "missing" clockface fix
     AntGiant for the HTTPebble code
 
 Feel free to reuse the code provided, but, please ensure you credit the authors. Thank you. :)
